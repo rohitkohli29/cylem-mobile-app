@@ -111,7 +111,7 @@ const CustomDrawer = (props: any) => {
                             success_cb={paymentSuccess}
                             failure_cb={paymentFailed}
                         />
-                    ) : (<Text>Hello world</Text>)
+                    ) : ("")
                 }
             </View>
         </View>
